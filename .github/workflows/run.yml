@@ -2,9 +2,9 @@ name: 签到
 
 on:
   push:
-    branches: [ master ]
+    branches: [ 17321262101 ]
   pull_request:
-    branches: [ master ]
+    branches: [ L123456123. ]
   schedule:
     - cron: 0 22,14 * * *
   watch:
