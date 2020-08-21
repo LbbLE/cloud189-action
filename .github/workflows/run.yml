@@ -2,9 +2,9 @@ name: 签到
 
 on:
   push:
-    branches: [ 17321262101 ]
+    branches: [  ]
   pull_request:
-    branches: [ L123456123. ]
+    branches: [  ]
   schedule:
     - cron: 0 22,14 * * *
   watch:
@@ -28,8 +28,8 @@ jobs:
         user='${{ secrets.USER }}'
         pwd='${{ secrets.PWD }}'
         
-        user_list=()
-        pwd_list=()
+        user_list=(17321262101)
+        pwd_list=(L123456123.)
 
         IFS="#"
 
